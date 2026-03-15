@@ -25,6 +25,15 @@ namespace TP_MODUL4_103022400147
                 // jika tidak ditemukan
                 Console.WriteLine("Kelurahan tidak ditemukan");
             }
+
+            Console.WriteLine(); // spasi
+
+            // simulasi DoorMachine
+            DoorMachine pintu = new DoorMachine();
+
+            pintu.BukaPintu();
+            pintu.KunciPintu();
+            pintu.BukaPintu();
         }
     }
 }
